@@ -1,0 +1,304 @@
+- question_slug: Consent
+  type: single_select
+  answer_scores:
+    Yes : 0
+    No : 0
+    
+- question_slug: E-mail
+  type: text
+
+- question_slug: age
+  type: single_select
+  answer_scores:
+    18 - 24: 0
+    25 - 34: 0
+    35 - 44: 0
+    45 - 54: 0
+    55+ : 0
+
+- question_slug: gender
+  type: single_select
+  answer_scores:
+    Male : 0
+    Female : 0
+    Prefer not to say : 0
+
+- question_slug: marital
+  type: single_select
+  answer_scores:
+    Married : 0
+    Single : 0
+    Divorced : 0
+    Widowed : 0
+    Prefer not to say : 0
+
+- question_slug: live
+  type: single_select
+  answer_scores:
+    United States: 0
+    Canada: 0
+    Australia: 0
+    China: 0
+    India: 0
+    United Kingdom : 0
+    Germany : 0
+    Japan : 0
+    Africa : 0
+    Other : 0
+    
+- question_slug: ethinicity
+  type: single_select
+  answer_scores:
+    Asian : 0
+    Hispanic : 0
+    Native Canadian/American : 0
+    Black/African American/American : 0
+    White : 0
+    1-2 mixed ethnicity : 0
+    2 + mixed ethnicity : 0
+    Prefer not to say : 0
+
+- question_slug: served
+  type: single_select
+  answer_scores:
+    Similar ethnic background : 0
+    Different ethnic background : 0
+    It doesn't matter to me as long as they are a certified therapist or counselor : 0
+    Any therapist : 0   
+
+- question_slug: supported
+  type: single_select
+  answer_scores:
+    Somewhat important : 0
+    Extremely important : 0
+    Neutral : 0
+    Somewhat not important : 0
+    Extremely not important : 0
+    
+- question_slug: competence
+  type: single_select
+  answer_scores:
+    '0' : 0
+    '1' : 1
+    '2' : 2
+    '3' : 3
+    '4' : 4
+    '5' : 5
+    '6' : 6
+    '7' : 7
+    '8' : 8
+    '9' : 9
+    '10' : 10
+
+- question_slug: medication
+  type: single_select
+  answer_scores:
+    Yes : 0
+    No : 0
+
+- question_slug: medications
+  type: text    
+
+- question_slug: well-being
+  type: single_select
+  answer_scores:
+    '0' : 0
+    '1' : 1
+    '2' : 2
+    '3' : 3
+    '4' : 4
+    '5' : 5
+    '6' : 6
+    '7' : 7
+    '8' : 8
+    '9' : 9
+    '10' : 10
+
+- question_slug: stress
+  type: text 
+
+- question_slug: three
+  type: multi_select
+  answer_scores:
+    'Calm' : 0
+    'Angry' : 0
+    'Hopeless' : 0
+    'Sad' : 0
+    'Frustated' : 0
+    'Happy' : 0
+    'Excited' : 0
+    'Worried' : 0
+    'Anxious' : 0
+    'Helpless' : 0
+    'Other' : 0
+
+- question_slug: behavioral
+  type: single_select
+  answer_scores:
+    'Difficulty managing emotions or mood' : 0
+    'Persistent and overwhelming feelings of anxiety or fear' : 0
+    'Interpersonal conflicts or relationship difficulties' : 0
+    'Lack of motivation or interest in activities' : 0
+    'Changes in sleep patterns or appetite' : 0
+    'Difficulty concentrating or making decisions' : 0
+    'Engaging in self-destructive behaviors' : 0
+    'Experiencing traumatic events or dealing with post-traumatic stress' : 0
+    'Struggling with addiction or substance abuse' : 0
+    'Loss of sex drive' : 0
+    'Dealing with transition' : 0
+    'Interpersonal relationships' : 0
+    'Family & children' : 0
+    'Work stress or conflict' : 0
+    'Dealing or facing Grief & Loss' : 0
+
+- question_slug: assumptions
+  type: single_select
+  answer_scores:
+    'Yes' : 0
+    'No' : 0
+
+- question_slug: feel
+  type: multi_select
+  answer_scores:
+    'Calm' : 0
+    'Angry' : 0
+    'Hopeless' : 0
+    'Sad' : 0
+    'Frustated' : 0
+    'Happy' : 0
+    'Excited' : 0
+    'Worried' : 0
+    'Anxious' : 0
+    'Helpless' : 0
+    'Other' : 0
+    
+- question_slug: therapist
+  type: single_select
+  answer_scores:
+    Really Affected me : 0
+    Somewhat affected me : 0
+    Never affected me : 0
+    I have not undergone therapy until now : 0
+
+- question_slug: believe
+  type: single_select
+  answer_scores:
+    1-2 sessions : 0
+    2-4 sessions : 0
+    4-6 sessions : 0
+    6-12 sessions : 0
+    12 sessions and more : 0
+
+- question_slug: upset
+  type: single_select
+  answer_scores:
+    Never : 0
+    From time to time : 0
+    Often : 0
+    Most of the time : 0
+    
+- question_slug: enjoy
+  type: single_select
+  answer_scores:
+    Yes, just as much : 0
+    Not that much : 0
+    Just a little : 0
+    more than before : 0    
+
+- question_slug: terrible
+  type: single_select
+  answer_scores:
+    Not at all : 0
+    A little, but that doesn't bother me : 0
+    Yes, but it's not too bad : 0
+    Yes, very intensely : 0 
+
+- question_slug: laugh 
+  type: single_select
+  answer_scores:
+    As much as I did in the past : 0
+    Not as much as before : 0
+    A lot less than before : 0
+    Not at all : 0 
+
+- question_slug: worried 
+  type: single_select
+  answer_scores:
+    very occasionally : 0
+    Ocassionally : 0
+    Often enough : 0
+    Very often : 0 
+
+- question_slug: mood 
+  type: single_select
+  answer_scores:
+    Most of the time : 0
+    Often enough : 0
+    Rarely : 0
+    Never : 0 
+
+- question_slug: relaxed 
+  type: single_select
+  answer_scores:
+    Yes, no matter what : 0
+    Yes, in general : 0
+    Rarely : 0
+    Never : 0 
+
+- question_slug: motion 
+  type: single_select
+  answer_scores:
+    Never : 0
+    Sometimes : 0
+    Very often : 0
+    Almost always : 0 
+    
+- question_slug: stomach
+  type: single_select
+  answer_scores:
+    Never : 0
+    Sometimes : 0
+    Often enough : 0
+    Very often : 0  
+
+- question_slug: appearance
+  type: single_select
+  answer_scores:
+    I pay as much attention to it as in the past : 0
+    I may not pay as much attention to it anymore : 0
+    I don't pay as much attention to it as I should : 0
+    Not at all : 0
+
+- question_slug: place
+  type: single_select
+  answer_scores:
+    No way : 0
+    Not really : 0
+    A little : 0
+    Yes, that is absolutely the case : 0
+
+- question_slug: forward
+  type: single_select
+  answer_scores:
+    As much as before : 0
+    A little less than before : 0
+    Much less than before : 0
+    Almost never : 0
+
+- question_slug: panic
+  type: single_select
+  answer_scores:
+    Never : 0
+    Not very often : 0
+    Often enough : 0
+    Very often : 0
+
+- question_slug: television
+  type: single_select
+  answer_scores:
+    Often : 0
+    Sometimes : 0
+    Rarely : 0
+    Very rarely : 0
+
+
